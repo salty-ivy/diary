@@ -1,6 +1,6 @@
 
 """
-App model for Blog realted pages and logic
+App model for Idea realted pages and logic
 """
 
 from wagtail.models import Page
@@ -9,9 +9,9 @@ from wagtail.admin.panels import FieldPanel
 from home.models import StandardPage, StandardIndexPage
 
 
-class BlogIndexPage(StandardIndexPage):
+class IdeaIndexPage(StandardIndexPage):
     """
-    For indexing/listing blog pages
+    For indexing/listing idea pages
     """
     intro = RichTextField(blank=True)
 
@@ -20,5 +20,5 @@ class BlogIndexPage(StandardIndexPage):
     ]
 
 
-class BlogPage(StandardPage):
+class IdeaPage(StandardPage):
     pass

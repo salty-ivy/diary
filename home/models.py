@@ -7,3 +7,7 @@ class HomePage(Page):
 
 class StandardPage(Page):
     pass
+
+
+class StandardIndexPage(Page):
+    pass
